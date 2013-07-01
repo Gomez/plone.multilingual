@@ -9,7 +9,7 @@ from plone.multilingual.interfaces import ILanguage
 from plone.multilingual.interfaces import IMutableTG
 from plone.multilingual.interfaces import ITranslationManager
 from plone.multilingual.interfaces import ITranslatable
-from plone.multilingual.interfaces import IObjectRemovedEvent
+from zope.lifecycleevent.interfaces import IObjectRemovedEvent
 from zope.component.hooks import getSite
 from zope.lifecycleevent import modified
 
